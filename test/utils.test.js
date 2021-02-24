@@ -12,7 +12,7 @@ var mochaAsync = fn => {
 describe("Utils", function() {
   describe("greetings", function() {
     it("Says Hello World 2", function() {
-      assert.equal(utils.greetings("World"), "Hello World 👋👋");
+      assert.equal(utils.greetings("World 3"), "Hello World 👋👋");
     });
 
     it("Throws on missing params", function() {
